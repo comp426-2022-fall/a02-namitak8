@@ -1,0 +1,28 @@
+{
+  "name": "galosh.js",
+  "version": "1.0.0",
+  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a02-namitak8.git"
+  },
+  "author": "namitak8",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a02-namitak8/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a02-namitak8#readme",
+  "dependencies": {
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module",
+  "bin": {
+      "galosh.js": "./cli.js"
+  }
+}
